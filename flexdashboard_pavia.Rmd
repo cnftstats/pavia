@@ -60,14 +60,14 @@ $(document).ready(function(){
 
 # Sidebar {data-width=80, .sidebar}
 <ul id="sidebar_ul">
-  <li><a href="https://cnftstats.github.io/adapes.html">Adapes</a></li>
-  <li><a href="https://cnftstats.github.io/bcrc.html">BCRC</a></li>
-  <li><a href="https://cnftstats.github.io/borgs.html">BorgsClub</a></li>
-  <li><a href="https://cnftstats.github.io/chilledkongs.html">ChilledKongs</a></li>
+  <li><a href="https://cnftstats.github.io/adapes">Adapes</a></li>
+  <li><a href="https://cnftstats.github.io/bcrc">BCRC</a></li>
+  <li><a href="https://cnftstats.github.io/borgs">BorgsClub</a></li>
+  <li><a href="https://cnftstats.github.io/chilledkongs">ChilledKongs</a></li>
   <li><a href="https://cnftstats.github.io/claynation">Clay Nation</a></li>
-  <li><a href="https://cnftstats.github.io/mocossi.html">Mocossi</a></li>
-  <li id="currentProject"><a href="https://cnftstats.github.io/pavia.html">Pavia</a></li>
-  <li><a href="https://cnftstats.github.io/spacebudz.html">SpaceBudz</a></li>
+  <li><a href="https://cnftstats.github.io/mocossi">Mocossi</a></li>
+  <li id="currentProject"><a href="https://cnftstats.github.io/pavia">Pavia</a></li>
+  <li><a href="https://cnftstats.github.io/spacebudz">SpaceBudz</a></li>
 </ul>
 
 # Floor {data-icon="ion-arrow-graph-up-right"}
@@ -586,16 +586,3 @@ Tips would also be greatly appreciated! This would encourage me to maintain and 
 
 <!-- https://ionic.io/ionicons/v2/cheatsheet.html -->
 <!-- https://www.qrcode-monkey.com/#text -->
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
