@@ -124,9 +124,8 @@ api_link <- sprintf("jpg.store/api/policy/%s/listings", policy_id)
 
 JPG <- data.table(fromJSON(rawToChar(GET(api_link)$content)))
 JPG[, link         := paste0("https://www.jpg.store/asset/", asset)]
-JPG[, price        := price_lovelace]
+JPG[, price        := as.numeric(price_lovelace)/10**6]
 JPG[, asset        := asset_display_name]
-JPG[, price        := price/10**6]
 JPG[, sc           := "yes"]
 JPG[, market       := "jpg.store"]
 
@@ -134,14 +133,21 @@ JPG <- JPG[, .(asset, type = "listing", price, last_offer = NA, sc, market, link
 
 
 # JPG sales ----------------------------------------------------------------------------------------
-api_link <- sprintf("jpg.store/api/policy/%s/sales", policy_id)
+JPGS_list <- lapply(1:5, function(i) {
+  api_link <- sprintf("jpg.store/api/policy/%s/sales/%d", policy_id, i)
+  data.table(fromJSON(rawToChar(GET(api_link)$content)))
+})
 
-JPGS <- data.table(fromJSON(rawToChar(GET(api_link)$content)))
-JPGS[, price         := price_lovelace]
+JPGS <- rbindlist(JPGS_list)
+
+# api_link <- sprintf("jpg.store/api/policy/%s/sales/%d", policy_id, i)
+# JPGS <- data.table(fromJSON(rawToChar(GET(api_link)$content)))
+
+
+JPGS[, price         := as.numeric(price_lovelace)/10**6]
 JPGS[, asset         := asset_display_name]
-JPGS[, price         := price/10**6]
 JPGS[, market        := "jpg.store"]
-JPGS[, sold_at       := as_datetime(purchased_at)]
+JPGS[, sold_at       := as_datetime(confirmed_at)]
 JPGS[, sold_at_hours := difftime(time_now, sold_at, units = "hours")]
 JPGS[, sold_at_days  := difftime(time_now, sold_at, units = "days")]
 
