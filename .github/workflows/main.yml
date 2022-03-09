@@ -2,7 +2,7 @@ name: buildDashboard
 
 on:
   schedule:
-    - cron:  "*/7 * * * *"
+    - cron:  "*/12 * * * *"
   workflow_dispatch:
     
 jobs: 
