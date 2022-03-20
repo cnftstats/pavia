@@ -1,5 +1,5 @@
 ---
-title: "Pavia Dashboard"
+title: "CNFTSTATS - Pavia"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -60,9 +60,8 @@ $(document).ready(function(){
 
 # Sidebar {data-width=80, .sidebar}
 <ul id="sidebar_ul">
-  <li><a href="https://cnftstats.github.io/adapes">Adapes</a></li>
+  <li><a href="https://cnftstats.github.io/adapes">ApesSociety</a></li>
   <li><a href="https://cnftstats.github.io/bcrc">BCRC</a></li>
-  <li><a href="https://cnftstats.github.io/borgs">BorgsClub</a></li>
   <li><a href="https://cnftstats.github.io/bossplanet">BossPlanet</a></li>
   <li><a href="https://cnftstats.github.io/chilledkongs">ChilledKongs</a></li>
   <li><a href="https://cnftstats.github.io/claynation">Clay Nation</a></li>
@@ -550,12 +549,9 @@ Tips would also be greatly appreciated! This would encourage me to maintain and 
 ## Columun 1
 ### About the website
 #### The data
-- Listings data is comes from <a href="https://cnft.io/" target="_blank">cnft.io</a> and <a href="https://www.jpg.store/" target="_blank">jpg.store</a> marketplaces.
+- Listings data is comes from <a href="https://cnft.io/" target="_blank">cnft.io</a>, <a href="https://www.jpg.store/" target="_blank">jpg.store</a>and <a href="https://www.spacebudz.io/" target="_blank">spacebudz.io</a> marketplaces
 - Rank and rarity scores come from <a href="https://cnft.tools/" target="_blank">cnft.tools</a>.
-- The website is updated every ~10mins (expect for the Pavia projects which takes more time). You need to hit `F5` to manually see the updates on the website.
-
-#### Comming soon
-- Only the *listings* are currently analyzed, but the *sales* will be soon included
+- The website is updated every ~10mins. You need to hit `F5` to manually see the updates on the website.
 
 #### Disclaimer
 - This is an early version, so there might be some bugs! Use at your own risk
@@ -584,7 +580,6 @@ Tips would also be greatly appreciated! This would encourage me to maintain and 
 - I am passionate about crypto, (c)nfts, stats, and programming!
 - Hit me on discord: <a href="https://discord.com/users/K2#8332/" target="_blank">K2#8332</a>
 - Follow me on Twitter: <a href="https://twitter.com/cnftstats" target="_blank">@cnftstats</a>
-
 
 <!-- https://ionic.io/ionicons/v2/cheatsheet.html -->
 <!-- https://www.qrcode-monkey.com/#text -->
