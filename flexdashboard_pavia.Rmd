@@ -1,5 +1,5 @@
 ---
-title: "CNFTSTATS - Pavia"
+title: "CNFTSTATS"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -60,7 +60,7 @@ $(document).ready(function(){
 
 # Sidebar {data-width=80, .sidebar}
 <ul id="sidebar_ul">
-  <li><a href="https://cnftstats.github.io/adapes">ApesSociety</a></li>
+  <li><a href="https://cnftstats.github.io/adapes">ApeSociety</a></li>
   <li><a href="https://cnftstats.github.io/bcrc">BCRC</a></li>
   <li><a href="https://cnftstats.github.io/bossplanet">BossPlanet</a></li>
   <li><a href="https://cnftstats.github.io/chilledkongs">ChilledKongs</a></li>
