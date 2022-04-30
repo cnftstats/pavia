@@ -12,6 +12,21 @@ table.dataTable thead th {
 
 }
 
+/* Black and white BossPlanet map checkbox */
+#checkbox_map_div {
+  position: fixed;
+  bottom: 37%;
+  right: 4.3%;
+}
+
+#checkbox_map_label {
+  font-size: 14px;
+  color: #5c5c5c;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+/* Side bar project list */
 #currentProject, #currentProject:hover {
   font-weight: bold !important;
   background-color: rgba(104, 53, 129, 0.1) !important;
@@ -76,28 +91,28 @@ table.dataTable thead th {
 @-webkit-keyframes color {
   0% { color: white; }
   30% { color: white; }
-  50% { color: rgba(255, 0, 0, .5); }
+  50% { color: rgba(255, 204, 102, .8); }
   70% { color: white; }
   100% { color: white; }
 }
 @-moz-keyframes color {
   0% { color: white; }
   30% { color: white; }
-  50% { color: rgba(255, 0, 0, .5); }
+  50% { color: rgba(255, 204, 102, .8); }
   70% { color: white; }
   100% { color: white; }
 }
 @-o-keyframes color {
   0% { color: white; }
   30% { color: white; }
-  50% { color: rgba(255, 0, 0, .5); }
+  50% { color: rgba(255, 204, 102, .8); }
   70% { color: white; }
   100% { color: white; }
 }
 @keyframes color {
   0% { color: white; }
   30% { color: white; }
-  50% { color: rgba(255, 0, 0, .5); }
+  50% { color: rgba(255, 204, 102, .8); }
   70% { color: white; }
   100% { color: white; }
 }
