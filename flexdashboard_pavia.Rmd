@@ -63,6 +63,7 @@ $(document).ready(function(){
   <li><a href="https://cnftstats.github.io/adapes">ApeSociety</a></li>
   <li><a href="https://cnftstats.github.io/bcrc">BCRC</a></li>
   <li><a href="https://cnftstats.github.io/bossplanet">BossPlanet</a></li>
+  <li><a href="https://cnftstats.github.io/cabins">Cabins</a></li>
   <li><a href="https://cnftstats.github.io/chilledkongs">ChilledKongs</a></li>
   <li><a href="https://cnftstats.github.io/claynation">Clay Nation</a></li>
   <li><a href="https://cnftstats.github.io/discosolaris">DiscoSolaris</a></li>
