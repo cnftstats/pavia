@@ -67,6 +67,7 @@ $(document).ready(function(){
   <li><a href="https://cnftstats.github.io/chilledkongs">ChilledKongs</a></li>
   <li><a href="https://cnftstats.github.io/claynation">Clay Nation</a></li>
   <li><a href="https://cnftstats.github.io/discosolaris">DiscoSolaris</a></li>
+  <li><a href="https://cnftstats.github.io/lazyllamas">LazyLlamas</a></li>
   <li><a href="https://cnftstats.github.io/mocossi">Mocossi</a></li>
   <li id="currentProject"><a href="https://cnftstats.github.io/pavia">Pavia</a></li>
   <li><a href="https://cnftstats.github.io/spacebudz">SpaceBudz</a></li>
